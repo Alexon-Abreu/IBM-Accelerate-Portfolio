@@ -125,7 +125,7 @@ Implementation requirements:
            ```
            Axios({
               method: "POST",
-              url: "http://localhost:<port>/add/item",
+              url: "http://localhost:8080/add/item",
               data: {jsonObject},
               headers: {
                  "Content-Type": "application/json"
